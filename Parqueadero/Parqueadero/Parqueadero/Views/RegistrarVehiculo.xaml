@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parqueadero.Views.RegistrarVehiculo"
+             Title="Nuevo vehiculo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Transparent" Margin="0,20,0,0">
+                <Grid>
+                    <Label Grid.Row="0" Grid.Column="0" Text="Registrar"
+                         HorizontalOptions="End"
+                         HorizontalTextAlignment="End"
+                         FontAttributes="Bold"
+                         BackgroundColor="Transparent"
+                         FontSize="20"
+                         Margin="0,0,0,0"
+                         WidthRequest="150"
+                         TextColor="#0C6C3E"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="vehiculo"
+                         BackgroundColor="Transparent"
+                         FontAttributes="Bold"
+                         FontSize="20"
+                         Margin="0,0,0,0"
+                         WidthRequest="250"
+                         TextColor="#666666"/>
+                </Grid>
+            </Frame>
+            <Frame Margin="30,10,30,10" Padding="10,5,0,5"
+                   CornerRadius="50">
+                <Grid RowSpacing="0"
+                      ColumnSpacing="0"
+                      ColumnDefinitions="40,210,0,0">
+                    <Frame Grid.Row="0" Grid.Column="0"
+                           CornerRadius="30"
+                           Padding="3"
+                           BackgroundColor="Transparent">
+                        <Image Source="carro"/>
+                    </Frame>
+                    <Picker Grid.Row="0" Grid.Column="1" FontSize="18"
+                           x:Name="txtnombre"
+                            SelectedItem="Moto"
+                            SelectedIndex="0"
+                            Title="Tipo de vehiculo">
+                    </Picker>
+                </Grid>
+            </Frame>
+            <Frame Margin="30,10,30,10" Padding="10,5,0,5"
+                   CornerRadius="50">
+                <Grid
+                    RowSpacing="0"
+                    ColumnSpacing="0"
+                    ColumnDefinitions="40,210,0,0">
+                    <Frame Grid.Row="0" Grid.Column="0"
+                           CornerRadius="30"
+                           Padding="5"
+                           BackgroundColor="Transparent">
+                        <Image Source="carro"/>
+                    </Frame>
+                    <Entry Grid.Row="0" Grid.Column="1"
+                           Placeholder="Modelo"
+                           x:Name="txtapellido">
+                    </Entry>
+                </Grid>
+            </Frame>
+            <Frame Margin="30,10,30,10" Padding="10,5,0,5"
+                   CornerRadius="50">
+                <Grid
+                    RowSpacing="0"
+                    ColumnSpacing="0"
+                    ColumnDefinitions="40,210,0,0">
+                    <Frame Grid.Row="0" Grid.Column="0"
+                           CornerRadius="30"
+                           Padding="5"
+                           BackgroundColor="Transparent">
+                        <Image Source="carro"/>
+                    </Frame>
+                    <Entry Grid.Row="0" Grid.Column="1"
+                           Placeholder="Matricula"
+                           x:Name="txtedad">
+                    </Entry>
+                </Grid>
+            </Frame>
+            <Frame Margin="0" 
+                   Padding="0" 
+                   BackgroundColor="Transparent">
+                <Button
+                    Text="Agregar"
+                    CornerRadius="40"
+                    FontSize="18"
+                    BackgroundColor="#0C6C3E"
+                    TextColor="White"
+                    WidthRequest="300"
+                    HeightRequest="60"
+                    FontAttributes="Bold"
+                    BorderWidth="5"
+                    HorizontalOptions="Center"
+                    Clicked="Insertar"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

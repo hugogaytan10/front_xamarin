@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parqueadero.Carnet"
+             BackgroundImageSource="images">
+    <ContentPage.Content>
+        <StackLayout>
+           
+                      
+               
+                    <StackLayout>
+                        <Frame BackgroundColor="Green"
+                   Padding="10"
+                   CornerRadius="10"
+                   Margin="20">
+                            <StackLayout>
+                        <ListView x:Name="listView"
+          SeparatorColor="#FADB24"
+          BackgroundColor="Transparent"
+          HasUnevenRows="True">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Frame BackgroundColor="WhiteSmoke">
+                                          
+                                                <Grid ColumnDefinitions="auto" RowDefinitions="auto">
+
+
+                                                <Image Source="logo333" Grid.Column="2" Grid.RowSpan="5" ></Image>
+
+
+                                                <Label Text="Tipo de carro" Grid.Row="0" Grid.Column="1"></Label>
+                                                    <Label Grid.Row="1" Grid.Column="1" 
+                                                      Text="{Binding Tipo}"/>
+
+                                                <Label Text="Modelo" Grid.Row="2" Grid.Column="1"></Label>
+                                                <Label Grid.Row="3" Grid.Column="1" 
+                                                      Text="{Binding Modelo}"/>
+                                                <Label Text="Matricula" Grid.Row="4" Grid.Column="1"></Label>    
+                                                    <Label Grid.Row="5" Grid.Column="1" 
+                                                     Text="{Binding Matricula}"/>
+                                                </Grid>
+                                            
+                                        </Frame>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                        </Frame>
+                        <Button Text="Editar información"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Margin="20"
+                        Clicked="Button_Clicked"/>
+
+                    </StackLayout>
+                
+
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

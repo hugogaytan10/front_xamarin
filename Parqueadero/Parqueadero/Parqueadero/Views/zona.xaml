@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parqueadero.Views.Motos"
+             IconImageSource="aparcamiento.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#BBDEFB">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <BoxView  Color="#E57373" CornerRadius="50" WidthRequest="50" HeightRequest="50" HorizontalOptions="Center" VerticalOptions="Center" />
+                    <Label Text="Ocupado" Grid.Row="0" Grid.Column="2" VerticalOptions="Center" />
+
+                    <BoxView Color="#1E88E5" CornerRadius="50" WidthRequest="50" HeightRequest="50" HorizontalOptions="Center" VerticalOptions="Center"  Grid.Column="3" Grid.Row="0" />
+                    <Label Text="Espera" Grid.Row="0" Grid.Column="4" VerticalOptions="Center" />
+
+                    <BoxView Color="#4DB6AC" CornerRadius="50" WidthRequest="50" HeightRequest="50" HorizontalOptions="Center" VerticalOptions="Center"  Grid.Column="5"  Grid.Row="0" />
+                    <Label Text="Disponible" Grid.Row="0" Grid.Column="6" VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+            <ScrollView>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Fila 1 -->
+                    <Label Grid.Row="0" Grid.Column="0" Text="Puesto 1" BackgroundColor="#4DB6AC"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="Puesto 2" BackgroundColor="#4DB6AC"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="Puesto 3" BackgroundColor="#4DB6AC"/>
+                    <Label Grid.Row="0" Grid.Column="3" Text="Puesto 4" BackgroundColor="#4DB6AC"/>
+                    <Label Grid.Row="0" Grid.Column="4" Text="Puesto 5" BackgroundColor="#4DB6AC"/>
+
+                    <!-- Fila 2 -->
+                    <Label Grid.Row="1" Grid.Column="0" Text="Puesto 5" BackgroundColor="#1E88E5"/>
+                    <Label Grid.Row="1" Grid.Column="1" Text="Puesto 6" BackgroundColor="#1E88E5"/>
+                    <Label Grid.Row="1" Grid.Column="2" Text="Puesto 7" BackgroundColor="#1E88E5"/>
+                    <Label Grid.Row="1" Grid.Column="3" Text="Puesto 8" BackgroundColor="#1E88E5"/>
+                    <Label Grid.Row="1" Grid.Column="4" Text="Puesto 9" BackgroundColor="#1E88E5"/>
+
+                    <!-- Fila 3 -->
+                    <Label Grid.Row="2" Grid.Column="0" Text="Puesto 9" BackgroundColor="#E57373"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="Puesto 10" BackgroundColor="#E57373"/>
+                    <Label Grid.Row="2" Grid.Column="2" Text="Puesto 11" BackgroundColor="#E57373"/>
+                    <Label Grid.Row="2" Grid.Column="3" Text="Puesto 12" BackgroundColor="#E57373"/>
+                    <Label Grid.Row="2" Grid.Column="4" Text="Puesto 13" BackgroundColor="#E57373"/>
+
+                    <!-- Fila 4 -->
+                    <Label Grid.Row="3" Grid.Column="0" Text="Puesto 13" BackgroundColor="#4DB6AC"/>
+                    <Label Grid.Row="3" Grid.Column="1" Text="Puesto 14" BackgroundColor="#4DB6AC"/>
+                    <Label Grid.Row="3" Grid.Column="2" Text="Puesto 15" BackgroundColor="#4DB6AC"/>
+                    <Label Grid.Row="3" Grid.Column="3" Text="Puesto 16" BackgroundColor="#4DB6AC"/>
+                    <Label Grid.Row="3" Grid.Column="4" Text="Puesto 17" BackgroundColor="#4DB6AC"/>
+
+                    <!-- Fila 5 -->
+                    <Label Grid.Row="4" Grid.Column="0" Text="Puesto 17" BackgroundColor="#1E88E5"/>
+                    <Label Grid.Row="4" Grid.Column="1" Text="Puesto 18" BackgroundColor="#1E88E5"/>
+                    <Label Grid.Row="4" Grid.Column="2" Text="Puesto 19" BackgroundColor="#1E88E5"/>
+                    <Label Grid.Row="4" Grid.Column="3" Text="Puesto 20" BackgroundColor="#1E88E5"/>
+                    <Label Grid.Row="4" Grid.Column="4" Text="Puesto 20" BackgroundColor="#1E88E5"/>
+
+                    <!-- Fila 6-->
+                    <Label Grid.Row="5" Grid.Column="0" Text="Puesto 17" BackgroundColor="#1E88E5"/>
+                    <Label Grid.Row="5" Grid.Column="1" Text="Puesto 18" BackgroundColor="#1E88E5"/>
+                    <Label Grid.Row="5" Grid.Column="2" Text="Puesto 19" BackgroundColor="#1E88E5"/>
+                    <Label Grid.Row="5" Grid.Column="3" Text="Puesto 20" BackgroundColor="#1E88E5"/>
+                    <Label Grid.Row="5" Grid.Column="4" Text="Puesto 21" BackgroundColor="#1E88E5"/>
+
+
+
+                </Grid>
+            </ScrollView>
+            <Frame>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="150"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Row="0" Grid.Column="1" Clicked="Button_Clicked" Text="Reservar" CornerRadius="50" HorizontalOptions="Center"/>
+                    <Image Source="ubicacion" Grid.Column="0" Grid.RowSpan="1" WidthRequest="20"/>
+                    <Image Source="logo333"  Grid.Column="2" HorizontalOptions="StartAndExpand"/>
+
+                    <!-- Nota -->
+                    <Label Grid.Row="1" Grid.ColumnSpan="3" Text="NOTA: Recuerda utilizar correctamente los elementos del parqueadero. Estaciona de forma ordenada y respeta las normas de circulación. Ayudemos a mantener un ambiente seguro y organizado."
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Margin="10"
+               FontSize="16"
+               LineBreakMode="WordWrap"/>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

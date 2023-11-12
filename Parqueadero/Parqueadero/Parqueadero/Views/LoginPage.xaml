@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parqueadero.Views.LoginPage"
+             BackgroundImageSource="images" >
+    <ContentPage.Content>
+
+        <StackLayout >
+            <Frame BackgroundColor="Transparent" Margin="29,0,0,0">
+                <Grid>
+                    <AbsoluteLayout>
+                    <Image 
+                         AbsoluteLayout.LayoutBounds="25,0,300,300"
+                        Source="logo333"
+                        Grid.Row="0" Grid.Column="0" 
+                         HorizontalOptions="Center"
+                         Margin="10,0,0,0"
+                         WidthRequest="145"
+                        />
+                    </AbsoluteLayout>
+           </Grid>
+           </Frame>
+       
+        
+        <Frame Margin="30,10,30,10" Padding="10,5,0,5"
+                   CornerRadius="100">
+                
+                <Grid
+                    RowSpacing="0"
+                    ColumnSpacing="0"
+                    ColumnDefinitions="40,210,0,0">
+                    <Frame Grid.Row="0" Grid.Column="0"
+                           CornerRadius="30"
+                           Padding="5"
+                           BackgroundColor="Transparent">
+
+                    </Frame>
+                    <Entry Grid.Row="0" Grid.Column="1"
+                           Placeholder="Email"
+                           x:Name="email"
+                           Keyboard="Email">
+                    </Entry>
+                </Grid>
+            </Frame>
+            <Frame Margin="30,10,30,10" Padding="10,5,0,5"
+                   CornerRadius="50">
+                <Grid RowSpacing="0"
+                      ColumnSpacing="0"
+                      ColumnDefinitions="40,210,0,0">
+                    <Frame Grid.Row="0" Grid.Column="0"
+                           CornerRadius="30"
+                           Padding="3"
+                           BackgroundColor="Transparent">
+                    
+                    </Frame>
+                    <Entry Grid.Row="0" Grid.Column="1"
+                           Placeholder="Contraseña"
+                           x:Name="password"
+                           IsPassword="True">
+                    </Entry>
+                </Grid>
+            </Frame>
+         
+                <Frame Margin="0" 
+                   Padding="0" 
+                   BackgroundColor="Transparent">
+                <Button
+                    Text="Iniciar Sesión"
+                    CornerRadius="40"
+                    FontSize="18"
+                    BackgroundColor="Green"
+                    TextColor="WhiteSmoke"
+                    WidthRequest="300"
+                    HeightRequest="60"
+                    FontAttributes="Bold"
+                    BorderWidth="5"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked"/>
+            </Frame>
+            <Frame Margin="0" 
+                   Padding="0" 
+                   BackgroundColor="Transparent">
+                <Grid ColumnDefinitions="10,20,155,200">
+                    <Label
+                        Text="¿Tienes cuenta?" TextColor="Green"
+                            Grid.Row="0" Grid.Column="2"
+                            FontSize="12"
+                            FontAttributes="Bold"
+                            HeightRequest="35"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                          />
+                    <Button
+                        
+                        Text="Regístrate" TextColor="Green"
+                            Grid.Row="0" Grid.Column="3"
+                            FontSize="10"
+                            FontAttributes="Bold"
+                            HeightRequest="35"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            Clicked="Button_Clicked_1"/>
+                </Grid>
+                 </Frame>
+           
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="80"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                   
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="80"/>
+                    <ColumnDefinition Width="80"/>
+                </Grid.ColumnDefinitions>
+
+            </Grid>
+        </StackLayout>
+       
+    </ContentPage.Content>
+</ContentPage>

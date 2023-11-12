@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parqueadero.Views.MisVehiculos"
+             Title="Mis vehiculos">
+    <ContentPage.Content>
+        <StackLayout>
+            <SearchBar x:Name="search1"
+                       Margin="0"
+                       BackgroundColor="#0C6C3E"
+                       CancelButtonColor="White"
+                       Placeholder="Buscar"
+                       TextChanged="Search1_TextChanged"
+                       FontSize="16"
+                       TextColor="#FFF"/>
+            <Button Text="Registrar vehiculo" 
+                    BackgroundColor="#0C6C3E"
+                    Clicked="Button_Clicked"
+                    TextColor="White"
+                    Margin="200,0,0,0"/>
+            <Frame BackgroundColor="WhiteSmoke">
+                <Grid ColumnDefinitions="30,60,110,90"
+                      RowDefinitions="30">
+                    <Label Grid.Row="0" Grid.Column="0" 
+                           Text="Id" 
+                           FontAttributes="Bold"
+                           TextColor="#0C6C3E"
+                           FontSize="15"/>
+                    <Label Grid.Row="0" Grid.Column="1" 
+                           Text="Tipo" 
+                           FontAttributes="Bold"
+                           TextColor="#0C6C3E"
+                           FontSize="14"/>
+                    <Label Grid.Row="0" Grid.Column="2" 
+                           Text="Modelo" 
+                           FontAttributes="Bold"
+                           TextColor="#0C6C3E"
+                           FontSize="14"/>
+                    <Label Grid.Row="0" Grid.Column="3" 
+                           Text="Matricula" 
+                           FontAttributes="Bold"
+                           TextColor="#0C6C3E"
+                           FontSize="15"/>
+                </Grid>
+            </Frame>
+            <ListView x:Name="listView"
+                      SeparatorColor="#FADB24"
+                      BackgroundColor="Transparent"
+                      HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BackgroundColor="WhiteSmoke">
+                                <SwipeView>
+                                    <SwipeView.RightItems>
+                                        <SwipeItem IconImageSource="eliminar" BackgroundColor="Red"
+                                                   Clicked="SwipeItem_Clicked"
+                                                   CommandParameter="{Binding .}"/>
+                                    </SwipeView.RightItems>
+                                    <SwipeView.LeftItems>
+                                        <SwipeItem IconImageSource="lapiz" BackgroundColor="#FADB24"
+                                                   Clicked="SwipeItem_Clicked1"
+                                                   CommandParameter="{Binding .}"/>
+                                    </SwipeView.LeftItems>
+                                    <Grid ColumnDefinitions="30,60,120,100">
+                                        <Label Grid.Row="0" Grid.Column="0" 
+                                           Text="{Binding Id}" 
+                                           FontAttributes="Bold"
+                                           TextColor="#666666"
+                                           FontSize="15"/>
+                                        <Label Grid.Row="0" Grid.Column="1" 
+                                           Text="{Binding Tipo}" 
+                                           FontAttributes="Bold"
+                                           TextColor="#666666"
+                                           FontSize="15"/>
+                                        <Label Grid.Row="0" Grid.Column="2" 
+                                           Text="{Binding Modelo}" 
+                                           FontAttributes="Bold"
+                                           TextColor="#666666"
+                                           FontSize="15"/>
+                                        <Label Grid.Row="0" Grid.Column="3" 
+                                           Text="{Binding Matricula}" 
+                                           FontAttributes="Bold"
+                                           TextColor="#666666"
+                                           FontSize="15"/>
+                                    </Grid>
+                                </SwipeView>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

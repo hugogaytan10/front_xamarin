@@ -1,0 +1,98 @@
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\Parqueadero.deps.json
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\Parqueadero.dll
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\ref\Parqueadero.dll
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\Parqueadero.pdb
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.csproj.AssemblyReference.cache
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.AssemblyInfoInputs.cache
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.AssemblyInfo.cs
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.csproj.CoreCompileInputs.cache
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.dll
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\ref\Parqueadero.dll
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.pdb
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Carros.xaml.g.cs
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Historial.xaml.g.cs
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Motos.xaml.g.cs
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Reservar.xaml.g.cs
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\MisVehiculos.xaml.g.cs
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Editar.xaml.g.cs
+C:\Users\DILAN\source\repos\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\RegistrarVehiculo.xaml.g.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\Parqueadero.deps.json
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\Parqueadero.dll
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\Parqueadero.pdb
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Carros.xaml.g.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Editar.xaml.g.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Historial.xaml.g.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\MisVehiculos.xaml.g.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Motos.xaml.g.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\RegistrarVehiculo.xaml.g.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Reservar.xaml.g.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.AssemblyInfo.cs
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.dll
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\refint\Parqueadero.dll
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.pdb
+C:\Users\USER\Desktop\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\ref\Parqueadero.dll
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\Parqueadero.deps.json
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\Parqueadero.dll
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\Parqueadero.pdb
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.csproj.AssemblyReference.cache
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Carros.xaml.g.cs
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Editar.xaml.g.cs
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Historial.xaml.g.cs
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\MisVehiculos.xaml.g.cs
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\RegistrarVehiculo.xaml.g.cs
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Reservar.xaml.g.cs
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.AssemblyInfoInputs.cache
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.AssemblyInfo.cs
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.csproj.CoreCompileInputs.cache
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.dll
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\refint\Parqueadero.dll
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.pdb
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\ref\Parqueadero.dll
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Carnet.xaml.g.cs
+C:\Users\alkosto\Downloads\Parqueadero (1)\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\zona.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\Parqueadero.deps.json
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\Parqueadero.dll
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\bin\Debug\netstandard2.0\Parqueadero.pdb
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.csproj.AssemblyReference.cache
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Carnet.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Carros.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Editar.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Historial.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\MisVehiculos.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\RegistrarVehiculo.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\Reservar.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Views\zona.xaml.g.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.AssemblyInfoInputs.cache
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.AssemblyInfo.cs
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.csproj.CoreCompileInputs.cache
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.dll
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\refint\Parqueadero.dll
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\Parqueadero.pdb
+C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero\obj\Debug\netstandard2.0\ref\Parqueadero.dll

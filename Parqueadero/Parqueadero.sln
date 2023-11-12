@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parqueadero.Android", "Parqueadero\Parqueadero.Android\Parqueadero.Android.csproj", "{7AC5D2B5-C17E-4022-BDDC-F27352B54ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parqueadero", "Parqueadero\Parqueadero\Parqueadero.csproj", "{E4315270-9795-4C0F-92FD-4B32635C4413}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AC5D2B5-C17E-4022-BDDC-F27352B54ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC5D2B5-C17E-4022-BDDC-F27352B54ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC5D2B5-C17E-4022-BDDC-F27352B54ABB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7AC5D2B5-C17E-4022-BDDC-F27352B54ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC5D2B5-C17E-4022-BDDC-F27352B54ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC5D2B5-C17E-4022-BDDC-F27352B54ABB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E4315270-9795-4C0F-92FD-4B32635C4413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4315270-9795-4C0F-92FD-4B32635C4413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4315270-9795-4C0F-92FD-4B32635C4413}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E4315270-9795-4C0F-92FD-4B32635C4413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4315270-9795-4C0F-92FD-4B32635C4413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4315270-9795-4C0F-92FD-4B32635C4413}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14563F63-9949-433A-9CB9-0B7990CCCE56}
+	EndGlobalSection
+EndGlobal

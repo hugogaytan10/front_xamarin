@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Parqueadero",
+    "\\Parqueadero\\Parqueadero",
+    "\\Parqueadero\\Parqueadero\\Parqueadero",
+    "\\Parqueadero\\Parqueadero\\Parqueadero\\Data"
+  ],
+  "SelectedNode": "\\Parqueadero\\Parqueadero\\Parqueadero\\Data\\VehiculosDatabase.cs",
+  "PreviewInSolutionExplorer": false
+}
