@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Parqueadero.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,17 @@ namespace Parqueadero.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Historial : ContentPage
     {
+        private readonly ApiServiceHistorial apiService;
         public Historial()
         {
             InitializeComponent();
+            apiService = new ApiServiceHistorial();
+            Todo();
+        }
+        public async void Todo()
+        {
+            var reservas = await apiService.ObtenerReservas();
+            listView.ItemsSource = reservas;
         }
     }
 }

@@ -4,8 +4,9 @@
     "\\Parqueadero",
     "\\Parqueadero\\Parqueadero",
     "\\Parqueadero\\Parqueadero\\Parqueadero",
-    "\\Parqueadero\\Parqueadero\\Parqueadero\\Data"
+    "\\Parqueadero\\Parqueadero\\Parqueadero\\Data",
+    "\\Parqueadero\\Parqueadero\\Parqueadero\\Views"
   ],
-  "SelectedNode": "\\Parqueadero\\Parqueadero\\Parqueadero\\Data\\ApiService.cs",
+  "SelectedNode": "\\Parqueadero\\Parqueadero\\Parqueadero\\Views\\RegisterPage.xaml.cs",
   "PreviewInSolutionExplorer": false
 }
