@@ -2426,7 +2426,8 @@ C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero.Andr
 C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\estar\source\repos\Parqueadero\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\typemaps.x86_64.o
+C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\app_shared_libraries\armeabi-v7a\libxamarin-app.so
+C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\app_shared_libraries\x86\libxamarin-app.so
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\bin\Debug\Parqueadero.Android.dll
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\bin\Debug\Parqueadero.Android.pdb
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\bin\Debug\com.companyname.parqueadero.apk
@@ -3012,6 +3013,7 @@ C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueader
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\typemaps.arm64-v8a.o
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\typemaps.armeabi-v7a.o
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\typemaps.x86.o
+C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\typemaps.x86_64.o
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\environment.arm64-v8a.o
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\environment.armeabi-v7a.o
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\environment.x86.o
@@ -3029,8 +3031,6 @@ C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueader
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\jni_remap.x86.o
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\jni_remap.x86_64.o
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\app_shared_libraries\arm64-v8a\libxamarin-app.so
-C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\app_shared_libraries\armeabi-v7a\libxamarin-app.so
-C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\app_shared_libraries\x86\libxamarin-app.so
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\app_shared_libraries\x86_64\libxamarin-app.so
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\bin\classes.dex
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\stamp\_CleanIntermediateIfNeeded.stamp
