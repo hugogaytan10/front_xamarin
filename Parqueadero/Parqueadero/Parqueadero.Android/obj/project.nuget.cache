@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QEVgvnnQKDWvOl/0cvOq+VCmZ3bVaEYsnF/+BOG824y3qSQJfsXGJsS+97yvsVet0F0OhASLI9rT9wHMFgHjQA==",
+  "dgSpecHash": "tnI8BkenNvHpO8VRJZGKuqAG1E8hAKvdDnUcJTpwjgCLs6Mnb39zSM8WQdaaqB4pjwXh6gpsNu3AJ2rQ1zFD6A==",
   "success": true,
   "projectFilePath": "C:\\Users\\clent\\Desktop\\hugui\\FE\\front_xamarin\\Parqueadero\\Parqueadero\\Parqueadero.Android\\Parqueadero.Android.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\clent\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.4\\sqlitepclraw.lib.e_sqlite3.android.2.0.4.nupkg.sha512",
     "C:\\Users\\clent\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\clent\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\clent\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\clent\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\clent\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\clent\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",

@@ -3041,3 +3041,6 @@ C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueader
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\assets\System.ComponentModel.Annotations.dll
+C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\assets\System.ComponentModel.DataAnnotations.dll
+C:\Users\clent\Desktop\hugui\FE\front_xamarin\Parqueadero\Parqueadero\Parqueadero.Android\obj\Debug\110\android\assets\System.ComponentModel.DataAnnotations.pdb
