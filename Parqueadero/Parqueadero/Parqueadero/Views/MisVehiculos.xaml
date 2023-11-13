@@ -19,7 +19,7 @@
                     TextColor="White"
                     Margin="200,0,0,0"/>
             <Frame BackgroundColor="WhiteSmoke">
-                <Grid ColumnDefinitions="30,60,110,90"
+                <Grid ColumnDefinitions="30,60,110,90,*,*"
                       RowDefinitions="30">
                     <Label Grid.Row="0" Grid.Column="0" 
                            Text="Placa" 
@@ -41,55 +41,66 @@
                            FontAttributes="Bold"
                            TextColor="#0C6C3E"
                            FontSize="15"/>
+                    <Label Grid.Row="0" Grid.Column="4" 
+                           Text="Editar" 
+                           FontAttributes="Bold"
+                           TextColor="#0C6C3E"
+                           FontSize="15"/>
+                    <Label Grid.Row="0" Grid.Column="5" 
+                           Text="Eliminar" 
+                           FontAttributes="Bold"
+                           TextColor="#0C6C3E"
+                           FontSize="15"/>
                 </Grid>
             </Frame>
             <ListView x:Name="listView"
-                      SeparatorColor="#FADB24"
-                      BackgroundColor="Transparent"
-                      HasUnevenRows="True">
+          SeparatorColor="#FADB24"
+          BackgroundColor="Transparent"
+          HasUnevenRows="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Frame BackgroundColor="WhiteSmoke">
-                                <SwipeView>
-                                    <SwipeView.RightItems>
-                                        <SwipeItem IconImageSource="eliminar" BackgroundColor="Red"
-                                                   Clicked="SwipeItem_Clicked"
-                                                   CommandParameter="{Binding .}"/>
-                                    </SwipeView.RightItems>
-                                    <SwipeView.LeftItems>
-                                        <SwipeItem IconImageSource="lapiz" BackgroundColor="#FADB24"
-                                                   Clicked="SwipeItem_Clicked1"
-                                                   CommandParameter="{Binding .}"/>
-                                    </SwipeView.LeftItems>
-                                    <Grid ColumnDefinitions="30,60,120,100">
-                                        <Label Grid.Row="0" Grid.Column="0" 
-                                           Text="{Binding Placa}" 
-                                           FontAttributes="Bold"
-                                           TextColor="#666666"
-                                           FontSize="15"/>
-                                        <Label Grid.Row="0" Grid.Column="1" 
-                                           Text="{Binding Marca}" 
-                                           FontAttributes="Bold"
-                                           TextColor="#666666"
-                                           FontSize="15"/>
-                                        <Label Grid.Row="0" Grid.Column="2" 
-                                           Text="{Binding Modelo}" 
-                                           FontAttributes="Bold"
-                                           TextColor="#666666"
-                                           FontSize="15"/>
-                                        <Label Grid.Row="0" Grid.Column="3" 
-                                           Text="{Binding Color}" 
-                                           FontAttributes="Bold"
-                                           TextColor="#666666"
-                                           FontSize="15"/>
-                                    </Grid>
-                                </SwipeView>
-                            </Frame>
+                            <StackLayout>
+                                <Grid ColumnDefinitions="30,60,120,100,*,*">
+                                    <Label Grid.Row="0" Grid.Column="0" 
+                               Text="{Binding Placa}" 
+                               FontAttributes="Bold"
+                               TextColor="#666666"
+                               FontSize="15"/>
+                                    <Label Grid.Row="0" Grid.Column="1" 
+                               Text="{Binding Marca}" 
+                               FontAttributes="Bold"
+                               TextColor="#666666"
+                               FontSize="15"/>
+                                    <Label Grid.Row="0" Grid.Column="2" 
+                               Text="{Binding Modelo}" 
+                               FontAttributes="Bold"
+                               TextColor="#666666"
+                               FontSize="15"/>
+                                    <Label Grid.Row="0" Grid.Column="3" 
+                               Text="{Binding Color}" 
+                               FontAttributes="Bold"
+                               TextColor="#666666"
+                               FontSize="15"/>
+                                    <Button Grid.Row="0" Grid.Column="4"
+                                Text="Editar"
+                                BackgroundColor="#0C6C3E"
+                                TextColor="White"
+                                Clicked="Editar_Clicked"
+                                CommandParameter="{Binding .}"/>
+                                    <Button Grid.Row="0" Grid.Column="5"
+                                Text="Eliminar"
+                                BackgroundColor="Red"
+                                TextColor="White"
+                                Clicked="Eliminar_Clicked"
+                                CommandParameter="{Binding .}"/>
+                                </Grid>
+                            </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

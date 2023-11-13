@@ -37,10 +37,10 @@
                         <Image Source="lapiz"/>
                     </Frame>
                     <Editor Grid.Row="0" Grid.Column="1"
-                           Placeholder="Id"
-                           Text="{Binding Id}"
-                           x:Name="txtId"
-                           IsReadOnly="True">
+                           Placeholder="Modelo"
+                           Text="{Binding Modelo}"
+                           x:Name="txtModelo"
+                           >
                     </Editor>
                 </Grid>
             </Frame>
@@ -56,9 +56,9 @@
                         <Image Source="lapiz"/>
                     </Frame>
                     <Editor Grid.Row="0" Grid.Column="1"
-                           Placeholder="Nombres"
-                           x:Name="txtnombre"
-                           Text="{Binding Tipo}">
+                           Placeholder="Marca"
+                           x:Name="txtMarca"
+                           Text="{Binding Marca}">
                     </Editor>
                 </Grid>
             </Frame>
@@ -75,28 +75,29 @@
                         <Image Source="lapiz"/>
                     </Frame>
                     <Editor Grid.Row="0" Grid.Column="1"
-                           Placeholder="Apellidos"
-                           x:Name="txtapellido"
-                           Text="{Binding Modelo}">
+                           Placeholder="Color"
+                           x:Name="txtColor"
+                           Text="{Binding Color}">
                     </Editor>
                 </Grid>
             </Frame>
-            <Frame Margin="30,10,30,10" Padding="10,5,0,5"
-                   CornerRadius="50">
-                <Grid
-                    RowSpacing="0"
-                    ColumnSpacing="0"
-                    ColumnDefinitions="40,210,0,0">
-                    <Frame Grid.Row="0" Grid.Column="0"
-                           CornerRadius="30"
-                           Padding="5"
-                           BackgroundColor="Transparent">
+            <Frame Margin="30,10,30,10" Padding="10,5,0,5" CornerRadius="50">
+                <Grid RowSpacing="0" ColumnSpacing="0" ColumnDefinitions="40,210,0,0">
+                    <Frame Grid.Row="0" Grid.Column="0" CornerRadius="30" Padding="5" BackgroundColor="Transparent">
                         <Image Source="lapiz"/>
                     </Frame>
-                    <Editor Grid.Row="0" Grid.Column="1"
-                           Placeholder="Edad"
-                           x:Name="txtedad"
-                                Text="{Binding Matricula}">
+                    <Editor Grid.Row="0" Grid.Column="1" Placeholder="Placa" x:Name="txtPlaca"
+                Text="{Binding Placa}" IsEnabled="False">
+                    </Editor>
+                </Grid>
+            </Frame>
+            <Frame Margin="30,10,30,10" Padding="10,5,0,5" CornerRadius="50">
+                <Grid RowSpacing="0" ColumnSpacing="0" ColumnDefinitions="40,210,0,0">
+                    <Frame Grid.Row="0" Grid.Column="0" CornerRadius="30" Padding="5" BackgroundColor="Transparent">
+                        <Image Source="lapiz"/>
+                    </Frame>
+                    <Editor Grid.Row="0" Grid.Column="1" Placeholder="id_Usuario" x:Name="txtIdU"
+                Text="{Binding id_usuario}" IsEnabled="False">
                     </Editor>
                 </Grid>
             </Frame>
