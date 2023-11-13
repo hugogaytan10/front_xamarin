@@ -2638,24 +2638,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\clent\\.nuget\\packages\\": {},
+    "C:\\Users\\estar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\clent\\Desktop\\hugui\\FE\\front_xamarin\\Parqueadero\\Parqueadero\\Parqueadero.Android\\Parqueadero.Android.csproj",
+      "projectUniqueName": "C:\\Users\\estar\\source\\repos\\front_xamarin\\Parqueadero\\Parqueadero\\Parqueadero.Android\\Parqueadero.Android.csproj",
       "projectName": "Parqueadero.Android",
-      "projectPath": "C:\\Users\\clent\\Desktop\\hugui\\FE\\front_xamarin\\Parqueadero\\Parqueadero\\Parqueadero.Android\\Parqueadero.Android.csproj",
-      "packagesPath": "C:\\Users\\clent\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\clent\\Desktop\\hugui\\FE\\front_xamarin\\Parqueadero\\Parqueadero\\Parqueadero.Android\\obj\\",
+      "projectPath": "C:\\Users\\estar\\source\\repos\\front_xamarin\\Parqueadero\\Parqueadero\\Parqueadero.Android\\Parqueadero.Android.csproj",
+      "packagesPath": "C:\\Users\\estar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\estar\\source\\repos\\front_xamarin\\Parqueadero\\Parqueadero\\Parqueadero.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\clent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\estar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2669,8 +2669,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\clent\\Desktop\\hugui\\FE\\front_xamarin\\Parqueadero\\Parqueadero\\Parqueadero\\Parqueadero.csproj": {
-              "projectPath": "C:\\Users\\clent\\Desktop\\hugui\\FE\\front_xamarin\\Parqueadero\\Parqueadero\\Parqueadero\\Parqueadero.csproj"
+            "C:\\Users\\estar\\source\\repos\\front_xamarin\\Parqueadero\\Parqueadero\\Parqueadero\\Parqueadero.csproj": {
+              "projectPath": "C:\\Users\\estar\\source\\repos\\front_xamarin\\Parqueadero\\Parqueadero\\Parqueadero\\Parqueadero.csproj"
             }
           }
         }
@@ -2683,9 +2683,21 @@
             "target": "Package",
             "version": "[1.6.1, )"
           },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.6.1, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2012, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2012, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.8.116, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",
