@@ -75,7 +75,7 @@
                     FontAttributes="Bold"
                     BorderWidth="5"
                     HorizontalOptions="Center"
-                    Clicked="Button_Clicked"/>
+                    Clicked="Login"/>
             </Frame>
             <Frame Margin="0" 
                    Padding="0" 

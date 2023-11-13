@@ -5,9 +5,40 @@
              IconImageSource="ges">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Historial"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name="listView"
+                      SeparatorColor="#FADB24"
+                      BackgroundColor="Transparent"
+                      HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BackgroundColor="WhiteSmoke">
+                                <SwipeView>
+
+                                    <Grid ColumnDefinitions="30,60,120,100">
+                                        <Label Grid.Row="0" Grid.Column="0" 
+                                           Text="{Binding Id}" 
+                                           FontAttributes="Bold"
+                                           TextColor="#666666"
+                                           FontSize="15"/>
+                                        <Label Grid.Row="0" Grid.Column="1" 
+                                           Text="{Binding Id_puesto}" 
+                                           FontAttributes="Bold"
+                                           TextColor="#666666"
+                                           FontSize="15"/>
+                                        <Label Grid.Row="0" Grid.Column="4" 
+                                           Text="{Binding Placa_vehiculo}" 
+                                           FontAttributes="Bold"
+                                           TextColor="#666666"
+                                           FontSize="15"/>
+
+                                    </Grid>
+                                </SwipeView>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

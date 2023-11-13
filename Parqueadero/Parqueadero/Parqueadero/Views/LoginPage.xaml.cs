@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,5 +33,38 @@ namespace Parqueadero.Views
         {
 
         }
-    }
+		private async void Login(object sender, EventArgs e)
+		{
+			string apiUrl = "http://192.168.0.6:45455/api/login/login";
+			string correoelectronico = email.Text;
+			string contrasena = password.Text;
+			try
+			{
+				var datos = new
+				{
+					correoelectronico,
+					contrasena,
+				};
+				string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(datos);
+				HttpContent contenido = new StringContent(jsonData, Encoding.UTF8, "application/json");
+				using (HttpClient client = new HttpClient())
+				{
+					HttpResponseMessage response = await client.PostAsync(apiUrl, contenido);
+					if (response.IsSuccessStatusCode)
+					{
+						Button_Clicked(sender, e);
+					}
+					else
+					{
+						await DisplayAlert("alerta", "Fallo en inicio de sesion", "cancelar");
+					}
+				}
+
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine("fallo");
+			}
+		}
+	}
 }
