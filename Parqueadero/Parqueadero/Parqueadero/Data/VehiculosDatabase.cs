@@ -35,7 +35,7 @@ namespace Parqueadero.Data
         public Task<Vehiculo> BuscarUno(Vehiculo vehiculo)
         {
             return database.Table<Vehiculo>()
-                            .Where(x => x.Id == vehiculo.Id)
+                            .Where(x => x.id_usuario == vehiculo.id_usuario)
                             .FirstOrDefaultAsync();
         }
 

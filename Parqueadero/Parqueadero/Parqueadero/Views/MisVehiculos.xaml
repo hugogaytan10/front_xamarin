@@ -22,12 +22,12 @@
                 <Grid ColumnDefinitions="30,60,110,90"
                       RowDefinitions="30">
                     <Label Grid.Row="0" Grid.Column="0" 
-                           Text="Id" 
+                           Text="Placa" 
                            FontAttributes="Bold"
                            TextColor="#0C6C3E"
                            FontSize="15"/>
                     <Label Grid.Row="0" Grid.Column="1" 
-                           Text="Tipo" 
+                           Text="Marca" 
                            FontAttributes="Bold"
                            TextColor="#0C6C3E"
                            FontSize="14"/>
@@ -37,7 +37,7 @@
                            TextColor="#0C6C3E"
                            FontSize="14"/>
                     <Label Grid.Row="0" Grid.Column="3" 
-                           Text="Matricula" 
+                           Text="Color" 
                            FontAttributes="Bold"
                            TextColor="#0C6C3E"
                            FontSize="15"/>
@@ -64,12 +64,12 @@
                                     </SwipeView.LeftItems>
                                     <Grid ColumnDefinitions="30,60,120,100">
                                         <Label Grid.Row="0" Grid.Column="0" 
-                                           Text="{Binding Id}" 
+                                           Text="{Binding Placa}" 
                                            FontAttributes="Bold"
                                            TextColor="#666666"
                                            FontSize="15"/>
                                         <Label Grid.Row="0" Grid.Column="1" 
-                                           Text="{Binding Tipo}" 
+                                           Text="{Binding Marca}" 
                                            FontAttributes="Bold"
                                            TextColor="#666666"
                                            FontSize="15"/>
@@ -79,7 +79,7 @@
                                            TextColor="#666666"
                                            FontSize="15"/>
                                         <Label Grid.Row="0" Grid.Column="3" 
-                                           Text="{Binding Matricula}" 
+                                           Text="{Binding Color}" 
                                            FontAttributes="Bold"
                                            TextColor="#666666"
                                            FontSize="15"/>

@@ -7,12 +7,14 @@ namespace Parqueadero.Models
 {
     public class Vehiculo
     {
-        [PrimaryKey, AutoIncrement]
-        public int Id { get; set; }
-        public string Tipo { get; set; }
+        [PrimaryKey]
+        public string Placa { get; set; }
+        public string Marca { get; set; }
         public string Modelo { get; set; }
-        public string Matricula { get; set; }
-       
+        public string Color { get; set; }
+		public Int64 id_usuario { get; set; }
 
-    }
+
+
+	}
 }

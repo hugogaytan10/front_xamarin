@@ -28,10 +28,10 @@ namespace Parqueadero.Views
 
                Vehiculo vehiculo = new Vehiculo()
                 {
-                    Id = 0,
-                    Tipo = Convert.ToString(txtnombre.SelectedItem),
+                    id_usuario = 0,
+                    Marca = Convert.ToString(txtnombre.SelectedItem),
                     Modelo = apellido,
-                    Matricula = edad
+                    Placa = edad
                 };
                 try
                 {

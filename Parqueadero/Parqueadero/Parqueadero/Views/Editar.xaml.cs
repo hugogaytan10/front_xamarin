@@ -22,10 +22,10 @@ namespace Parqueadero.Views
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-            txtId.Text = Convert.ToString(vehiculo.Id);
-            txtnombre.Text = vehiculo.Tipo;
+            txtId.Text = Convert.ToString(vehiculo.id_usuario);
+            txtnombre.Text = vehiculo.Marca;
             txtapellido.Text = vehiculo.Modelo;
-            txtedad.Text = vehiculo.Matricula;
+            txtedad.Text = vehiculo.Placa;
             txtId.Focus();
         }
         private async void Actualizar(object sender, EventArgs e)
@@ -40,12 +40,12 @@ namespace Parqueadero.Views
                     string edad = txtedad.Text;
                     Vehiculo vehiculo = new Vehiculo
                     {
-                        Id = Convert.ToInt32(txtId.Text),
-                        Tipo = nombre,
+                        id_usuario = Convert.ToInt32(txtId.Text),
+                        Marca = nombre,
                         Modelo = apellido,
-                        Matricula = edad
+                        Placa = edad
                     };
-                    if (vehiculo.Id != 0)
+                    if (vehiculo.id_usuario != 0)
                     {
                         int personaActualizada = await App.DataBase.Actualizar(vehiculo);
                         if (personaActualizada != 0)

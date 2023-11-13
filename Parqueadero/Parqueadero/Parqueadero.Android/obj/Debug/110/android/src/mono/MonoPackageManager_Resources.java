@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Parqueadero.Android.dll" comes first in this list. */
 		"Parqueadero.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Parqueadero.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
