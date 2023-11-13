@@ -31,33 +31,46 @@ namespace Parqueadero.Views
 			{
 				Grid grid = new Grid();
 
-				// Definir columnas y filas según la cantidad de puestos
-				for (int i = 0; i < puestos.Count; i++)
+				// Definir columnas según la cantidad de puestos
+				for (int j = 0; j < 5; j++)
+				{
+					grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+				}
+
+				// Calcular el número de filas necesarias
+				int numRows = (int)Math.Ceiling((double)puestos.Count / 5);
+
+				// Definir filas según la cantidad de puestos
+				for (int i = 0; i < numRows; i++)
 				{
 					grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(40) });
 
-					// Aquí puedes ajustar las columnas según tus necesidades
 					for (int j = 0; j < 5; j++)
 					{
-						grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-						var puesto = puestos[i * 5 + j];
-						var label = new Label
-						{
-							Text = $"Puesto {puesto.numero}",
-							BackgroundColor = GetColorForEstado(puesto.estado),
-							VerticalOptions = LayoutOptions.Center,
-							HorizontalOptions = LayoutOptions.FillAndExpand,
-						};
-						grid.Children.Add(label, j, i);
+						int puestoIndex = i * 5 + j;
 
-						// Agrega un gesture recognizer para detectar el clic en el puesto
-						var tapGestureRecognizer = new TapGestureRecognizer();
-						tapGestureRecognizer.Tapped += (s, e) => {
-							// Aquí puedes agregar la lógica para manejar el clic en el puesto
-							// por ejemplo, mostrar detalles o realizar alguna acción
-							DisplayAlert("Puesto Clickeado", $"Puesto {puesto.numero} clickeado", "Aceptar");
-						};
-						label.GestureRecognizers.Add(tapGestureRecognizer);
+						if (puestoIndex < puestos.Count)
+						{
+							var puesto = puestos[puestoIndex];
+							var label = new Label
+							{
+								Text = $"Puesto {puesto.numero}",
+								BackgroundColor = GetColorForEstado(puesto.estado),
+								VerticalOptions = LayoutOptions.Center,
+								HorizontalOptions = LayoutOptions.FillAndExpand,
+							};
+							grid.Children.Add(label, j, i);
+
+							// Agrega un gesture recognizer para detectar el clic en el puesto
+							var tapGestureRecognizer = new TapGestureRecognizer();
+							tapGestureRecognizer.Tapped += (s, e) =>
+							{
+								// Aquí puedes agregar la lógica para manejar el clic en el puesto
+								// por ejemplo, mostrar detalles o realizar alguna acción
+								DisplayAlert("Puesto Clickeado", $"Puesto {puesto.numero} clickeado", "Aceptar");
+							};
+							label.GestureRecognizers.Add(tapGestureRecognizer);
+						}
 					}
 				}
 
@@ -65,6 +78,7 @@ namespace Parqueadero.Views
 				scrollView.Content = grid;
 			}
 		}
+
 
 
 		private Color GetColorForEstado(string estado)
